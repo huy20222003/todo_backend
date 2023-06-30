@@ -1,9 +1,12 @@
-POST http://localhost:3000/api/auth/login
+POST https://todolist-xwu9.onrender.com/api/auth/register
 Content-Type: application/json
 
 {
-    "username": "admin",
-    "password": "1234567"
+    "fullName": "huy",
+    "username": "admin1",
+    "email": "admin1@gmail.com",
+    "password": "1234567",
+    "confirmPassword": "1234567"
 }
 
 ###
